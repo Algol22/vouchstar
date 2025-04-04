@@ -1,7 +1,9 @@
 .DS_Store
-node_modules
+# Ignore all node_modules
+node_modules/
+
+# Don't ignore vue-vstar-websdk specifically
 !node_modules/vue-vstar-websdk/
-/dist
 
 
 # local env files
